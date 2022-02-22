@@ -1,0 +1,10 @@
+version: '3'
+services:
+  hugo:
+    image: klakegg/hugo
+    command: server -p 80
+    working_dir: /src
+    volumes:
+      - "./site:/src"
+    ports:
+      - "80:80"

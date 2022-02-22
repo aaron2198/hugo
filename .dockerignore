@@ -1,0 +1,5 @@
+Caddyfile
+caddy_data/
+caddy_config/
+docker-compose.yaml
+Dockerfile
